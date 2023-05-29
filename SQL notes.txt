@@ -1,0 +1,11 @@
+                                     -----DATA BASE QUERIES---
+                                          -----------------
+create database office
+use office
+create table employee(emp_id int,emp_name varchar(30),emp_dept varchar(30),emp_sal int)
+select * from employee
+select emp_name from employee
+insert into employee values(10,'sunny','developer',30000); // - single values
+             
+insert into employee values(11,'deepa','supporter',10000),(12,'ammu','non_it',15000),(13,'kanna','developer',20000); //  - multiple values
+               

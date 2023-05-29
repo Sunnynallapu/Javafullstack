@@ -1,0 +1,254 @@
+ Java:-java is object oriented programming language. It is a open source platform independent.
+       java was invented by james goslins & team in 1995 from sun micro system. later it was taken oracle.
+ 
+-> steps for java installation and path setting:-
+1.Install java any version(latest 17 version) from Oracle.
+2.After installation the software will be there in C drive.
+  C->program files->java->jdk-17.0.5->bin
+3. Copy that path and paste in system environment variables i.e.,
+  go to file explorer-> Right click on pc->properties->advanced system setting->Environment variables->System variables->path
+  click on path and edit then click on new and paste that path.
+4.After setting path we need to check whether java is installed or not. Open command prompt(cmd) type "java" then we will get some information means java was installed successfully.
+  we need to check java version(type java --version).
+
+
+***Execution:-
+
+
+compilation :- javac Filename.java
+execution:- java Filename.java
+
+-> to change one directory to another we have to use cd..(Change directory)
+       or
+   directly we can use to which directory we have to switch i.e., directory:(d:)
+
+
+***Datatypes:-
+
+integer :- numbers like 1,2,3......
+float   :- decimal points 1.0f,1.5f,2.0f....
+double  :- decimal points but point after point more then one number like- 1.55,2.00,2.5...
+short   :- short is like numbers.but now range short,so its not used
+char    :- alphabets like(single letter) a,b,c.....
+String  :- words like sunny,hello,world..
+
+->Every statement has semicolon(;) like int a=1;
+
+where   int - datatype
+        a - variable or identifier
+        1 - value
+        = - assignment operator
+
+In java, every program must have class and main method i.e.,
+class Example1
+{
+public static void main(String args[])
+}
+}
+
+-> class name and file name must have same name
+
+-> class name starts with capital letter
+
+-> variable :- can store value and the value can be changed.Declare once and use any times
+ 
+   Variable declaration:-
+   int a=10;
+      or
+   int a;//declaration
+    a=10;//assigning value
+
+   
+******OPERATORS:-
+1.unary:- ++,--
+ ++a:-pre increment(first increase then assigning and update)
+   example -  int a=1;
+                x=++a
+               o/p :- x=2, a=2
+ a++ :-post increment(First assigning and increase then update)
+   example - int a=1;
+               x=a++;
+               o/p:- x=1,a=2
+ --a:-pre decrement
+ a--:-post decrement
+ 
+ example-
+    int a=10;
+++a; 
+System.out.println(a);//11
+ a++;
+System.out.println(a);//12
+--a;
+System.out.println(a);//11
+a--;
+System.out.println(a);//10
+++a;
+a++;
+a--;
+System.out.println(a);//11
+
+
+2.Short hand assignment operator:- +=,-=,*=,%=
+   example:-
+             a=a+b
+             a+=b
+3.Relational Operators:- < > <= >=
+  example:-
+             
+class Relationaloperator
+{
+ public static void main(String args[])
+{
+  int a,b;
+  a=10000;
+  b=12000;
+ if(a>b)
+{
+ System.out.println("hello");
+}
+
+else
+{
+System.out.println("Sunny");
+}
+}
+}
+     
+
+4.Bitwise operator:-&(and),|(or),^(exclucive or)
+
+    & - if both condition is true then only we will get true . otherwise false(if any one condition false then we will get false)
+    | - if both condition is false then only we will get false. otherwise true(if any one condition true then we will get true)
+
+5.Logical operator:- &&,||
+
+    && - same like bitwise and but if first condition gets false it doesn't check second condition
+    || - same like bitwise or but if first condition gets true  it doesn't check second condition
+ example -class Logicaloperator
+
+ 
+ int a=8;
+ int b=5;
+ int c=6;
+if(a<b&&a>c)
+{
+System.out.println("True");
+}
+else 
+{
+System.out.println("False");
+}
+
+
+
+6.Ternary operator:- ?:
+
+  example-
+  int a=2;
+  int b=10;
+  int c;
+  c=(a>b)?a:b;
+  System.out.println(c); 
+
+7.Arithmetic operator:- +,-,*,/,%
+8.Assignment operator:-=
+
+***COMMENTS(comments are not executed)**
+// - single line comments(if you don't want to execute single statement then kept that in comments or if you describe then also give comments)
+ example- //System.out.println(a);
+           int a;//variable declaration
+/*  */ - multi line comments(if you don't want to execute more than one statement)
+ example - /*
+              hello                       
+              this is statement
+            */
+
+****ITERATION STATEMENT***
+1)while(first check condition if true executes statement)
+
+syntax:-   Initialization
+          while(condition)
+         {
+               statement
+             increment
+          }
+
+Example:- int a=1
+          while(a<5)
+          {
+     
+             System.out.println(a);
+             a++
+          }
+
+2)do while(First it doesnt check condition print only one statement then it check condition if it true then only it executes other statement) 
+syntax:- do{
+           Statement
+          }while(condition);
+
+example:- do{
+               System.out.println(a); 
+             }while(a<5)
+             
+3) for
+   syntax:-for(initialization;condition;updation or increment)
+           {
+              System.out.println(a); 
+           }
+
+
+
+
+
+
+--------logics-------
+->Factorial:- means we have to multiply the numbers till the given number(ichina number varaku multiply cheyali)
+Example :- 5!
+  1*2*3*4*5=120!
+
+->Factors :- 
+
+
+
+Array:-collection of homogenous/similar elements and stored as index based.(more than one element).Index has started with 0;
+
+
+
+
+
+                                        #------OOPS---------#
+**OOPS CONCEPT**
+1)Encapsulation:-combining data methods as one unit and hiding the data mechanism using private.
+  --------------
+
+    private int a;- data
+    add () - method - encapsulation
+    private         - within class
+		
+
+    getters(), setters() - using this methods  we can access private variables
+
+2) Inheritance :- Extending the properties from one class to another class and can add new features.
+   ------------
+     class A{
+    int a =10;- data
+    void add(){
+    System.out.println(a);
+   }
+   }
+    class B extends A{
+
+3)Polymorphism:-object can act as many forms(Method overloading and method overriding).
+  -------------
+
+  Example(real-time):- A person can be act as son , brother and husband.
+
+4)Abstraction:- Achieving through abstract keyword
+  ------------
+
+
+ ***Access modifiers***
+public-access anywhere
+private    - within class
+Protected  - within package and outside package
+default    - within package
