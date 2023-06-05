@@ -1,0 +1,17 @@
+.ok{
+   
+    margin-left: 600px;
+}
+input{
+    margin-top: 5px;
+    padding:10px
+}
+.sunny{
+    background-color: rgb(113, 113, 233);
+    width: 100px;
+}
+Button{
+    background-color: brown;
+    color: #f3efef;
+    width: 50px;
+}

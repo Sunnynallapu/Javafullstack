@@ -1,0 +1,27 @@
+input{
+    border-radius: 25px;
+    padding-right: 5px;
+        
+        padding:5px
+    }
+
+
+button{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    margin-left: 110px;
+    
+}
+div{
+    margin-left: 500px;
+    
+}
+h1{
+    margin-top: 20px;
+   
+
+}
+label{
+    padding-right: 80px;
+}

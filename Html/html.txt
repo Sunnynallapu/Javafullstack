@@ -7,3 +7,14 @@
 </body>
 
 </html>
+
+
+inline:- <h1 style="color:red">Name</h1>
+<h2 style="color:blue>Email</h2>
+<head>
+<meta>
+<title>
+<style>
+<link rel="stylesheet" href="one.css"> - external style
+<script src="one.js">
+</head>

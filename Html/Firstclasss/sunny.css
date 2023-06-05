@@ -1,0 +1,13 @@
+.sunny{
+    display: flex;
+     }
+
+
+button{
+    background-color: rgb(97, 97, 238);
+    color: white;
+    width:100px
+}
+body{
+    margin-left: 400px;
+}
