@@ -1,0 +1,15 @@
+
+  .myimage{
+    background-image: url("./Secondclass/love.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -60;
+    
+  }
+  label{
+    color: rgb(0, 0, 0);
+    
+  }
+  .sunny{
+    color: rgb(30, 8, 82);
+  }

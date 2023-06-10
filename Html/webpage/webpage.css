@@ -1,0 +1,45 @@
+header{
+    background-color: brown;
+    width: 80%;
+   margin:0px;
+    padding: 5px;
+    color: aliceblue;
+    text-align: center;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    
+
+}
+footer{
+    background-color: brown;
+    width: 80%;
+    margin:0px;
+    padding: 5px;
+    color: aliceblue;
+    text-align: right;
+    
+
+}
+p{
+    background-color: aliceblue;
+    width: 80%;
+    margin:0px;
+    padding: 5px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+h1{
+    font-size: xx-large;
+    text-decoration: underline;
+
+}
+body{
+    background-image:url(../Firstclasss/sunny.jpg);
+     background-repeat: no-repeat;
+
+}
+    
+
+    
